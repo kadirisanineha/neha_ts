@@ -1,0 +1,56 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #3a007a; /* Purple background */
+    color: white;
+    padding: 0 50px;
+  }
+  
+  .content {
+    text-align: left;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ffa8a8;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .custom-button {
+    background-color: #a855ff; /* Bright purple */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .custom-button:hover {
+    background-color: #ff70ff; /* Lighter purple on hover */
+    transform: scale(1.05);
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 

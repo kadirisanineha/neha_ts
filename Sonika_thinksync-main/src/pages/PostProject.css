@@ -1,0 +1,69 @@
+/* Overall page styling */
+.post-project-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a007a; /* Purple background */
+    color: white;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .form {
+    width: 80%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Input fields styling */
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fefae0; /* Pale yellow */
+    color: #333;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Submit button styling */
+  button {
+    padding: 10px;
+    background: linear-gradient(to right, #ff0080, #ff80bf); /* Gradient */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #ff80bf, #ff0080);
+    transform: scale(1.05);
+  }
+  
